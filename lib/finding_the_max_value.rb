@@ -3,6 +3,6 @@ def find_max_value(array)
   while count< array.length do
       array[count]> array[count]
       array= array[count]
+      count+= 1
   end
-  count+= 1
 end
